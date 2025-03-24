@@ -37,7 +37,7 @@ int main(int argc, char** argv)
 			sum += A[i][j] * X[j];
 		}
 		Y_serial[i] = sum;
-		printf("%f ", Y_serial[i]);
+		// printf("%f ", Y_serial[i]);
 	}
 	printf("\n");
 
@@ -46,7 +46,7 @@ int main(int argc, char** argv)
 	//** 2. Parallel code **//
 	timer.onTimer(1);
 
-	#pragma omp parallel num_threads(8)
+	#pragma omp parallel num_threads(6)
 	{
 		#pragma omp for
 		for (i = 0; i < m; i++) {
@@ -58,9 +58,9 @@ int main(int argc, char** argv)
 		}
 	}
 
-	for (i = 0; i < m; i++) {
-		printf("%f ", Y_parallel[i]);
-	}
+	// for (i = 0; i < m; i++) {
+	// 	printf("%f ", Y_parallel[i]);
+	// }
 	timer.offTimer(1);
 
 	//** 3. Result checking code **//

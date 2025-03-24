@@ -8,12 +8,12 @@ EXEC1 = Lab2-1
 EXEC2 = Lab2-2
 
 # 소스 파일 
-SRC1 = main.cpp DS_timer.cpp
-SRC2 = main2.cpp DS_timer.cpp
+SRC1 = lab1.cpp DS_timer.cpp
+SRC2 = lab2.cpp DS_timer.cpp
 
 # 오브젝트 파일
-OBJ1 = $(SRC1:.c=.o)
-OBJ2 = $(SRC2:.c=.o)
+OBJ1 = $(SRC1:.cpp=.o)
+OBJ2 = $(SRC2:.cpp=.o)
 
 # 기본 실행 파일 빌드
 all: $(EXEC1) $(EXEC2)
