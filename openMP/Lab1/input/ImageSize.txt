@@ -1,2 +1,0 @@
-Width = 7680
-Height = 4320
