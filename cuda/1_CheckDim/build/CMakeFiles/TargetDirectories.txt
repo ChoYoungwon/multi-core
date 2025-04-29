@@ -1,0 +1,3 @@
+/home/youngwon/multi-core/cuda/1_CheckDim/build/CMakeFiles/CheckDim.dir
+/home/youngwon/multi-core/cuda/1_CheckDim/build/CMakeFiles/edit_cache.dir
+/home/youngwon/multi-core/cuda/1_CheckDim/build/CMakeFiles/rebuild_cache.dir

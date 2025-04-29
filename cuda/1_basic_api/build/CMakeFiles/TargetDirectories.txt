@@ -1,3 +1,0 @@
-/home/youngwon/multi-core/cuda/1_basic_api/build/CMakeFiles/device_memory.dir
-/home/youngwon/multi-core/cuda/1_basic_api/build/CMakeFiles/edit_cache.dir
-/home/youngwon/multi-core/cuda/1_basic_api/build/CMakeFiles/rebuild_cache.dir
