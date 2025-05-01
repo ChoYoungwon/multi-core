@@ -1,0 +1,13 @@
+67108864 elements, memSize = 268435456 bytes
+
+*	 DS_timer Report 	*
+* The number of timer = 5, counter = 5
+**** Timer report ****
+CUDA Total : 490.78500 ms (490.78500 ms)
+Computation(Kernel) : 0.73300 ms (0.73300 ms)
+Data Trans. : Host -> Device : 205.50200 ms (205.50200 ms)
+Data Trans. : Device -> Host : 284.54900 ms (284.54900 ms)
+VectorSum on Host : 593.65300 ms (593.65300 ms)
+**** Counter report ****
+*	 End of the report 	*
+GPU works well!

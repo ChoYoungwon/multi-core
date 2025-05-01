@@ -1,0 +1,12 @@
+
+*	 DS_timer Report 	*
+* The number of timer = 5, counter = 5
+**** Timer report ****
+CUDA Total : 305.13400 ms (305.13400 ms)
+Computation(Kernel) : 1.03600 ms (1.03600 ms)
+Data Trans. : Host -> Device : 196.81600 ms (196.81600 ms)
+Data Trans. : Device -> Host : 107.26200 ms (107.26200 ms)
+MatrixAddition on Host : 218.60000 ms (218.60000 ms)
+**** Counter report ****
+*	 End of the report 	*
+GPU works well!
