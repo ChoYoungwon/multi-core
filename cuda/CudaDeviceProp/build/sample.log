@@ -1,0 +1,5 @@
+Device 0: NVIDIA GeForce MX250
+	Compute capability: 6.1
+	The number of streaming multiprocessors: 3
+	The number of CUDA cores: 384
+	Global memory size: 2047.88 MB

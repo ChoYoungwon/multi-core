@@ -1,0 +1,14 @@
+Success matched
+Success matched
+
+*	 DS_timer Report 	*
+* The number of timer = 6, counter = 6
+**** Timer report ****
+Serial Algorithm : 58.07300 ms (58.07300 ms)
+OpenMP algorithm : 23.90700 ms (23.90700 ms)
+CUDA algorithm(total) : 3.42200 ms (3.42200 ms)
+ - Kernel : 2.74900 ms (2.74900 ms)
+ - [Data transfer] host -> device : 0.35300 ms (0.35300 ms)
+ - [Data transfer] device -> host : 0.31000 ms (0.31000 ms)
+**** Counter report ****
+*	 End of the report 	*
