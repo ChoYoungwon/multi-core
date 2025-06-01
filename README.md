@@ -37,6 +37,6 @@
 
 ## 출처
 한국기술교육 대학교 `25 4-1 멀티코어프로그래밍 (김덕수 교수님) \
-CUDA 기반 GPU 병렬 처리 프로그래밍(비제이퍼블릭, 2023.05.25, 저자 김덕수) \ 
+CUDA 기반 GPU 병렬 처리 프로그래밍(비제이퍼블릭, 2023.05.25, 저자 김덕수) \
 https://product.kyobobook.co.kr/detail/S000202185653 \
 git : https://github.com/bluekds/CUDA_Programming
