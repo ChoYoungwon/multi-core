@@ -8,34 +8,35 @@
 
 ## 개요
 ### OpenMP
-1. `ParallelConstructs` : 병렬처리 영역
-2. `WorkSharingConstructs` : 작업 분배 방법
+#### 1. `ParallelConstructs` : 병렬처리 영역
+#### 2. `WorkSharingConstructs` : 작업 분배 방법
   - Loop construct
   - Sections construct
   - Single construct  
-4. `Scope of Variables` : 공유 변수 vs 개인 변수
-5. `Synchronization` : 동기화
+#### 4. `Scope of Variables` : 공유 변수 vs 개인 변수
+#### 5. `Synchronization` : 동기화
   - Barrier (Implicit barrier, Explicit barrier)
   - critical
   - atomic
   - master
   - Lock
-6. `Scheduling` : 작업 스케줄링
+#### 6. `Scheduling` : 작업 스케줄링
   - 정적 vs 동적, 중앙 vs 분산
   - Uniform distribution(균등 분배)
   - Round-robin
   - Master-slave
   - Work-stealing
-7. `Reduction` : 누적 연산
+#### 7. `Reduction` : 누적 연산
 
 ### Cuda
-1. `VectorSum` : 백터 합
-2. `MatrixMultiplication` : 행렬곱 (블록, 그리드 설정)
-3. `SharedMemory` : 공유 메모리로 성능 높이기(행렬곱)
-4. `Synchronization` : 동기화
-5. `assign` : 레이아웃 설정, 행렬 곱 구현, SharedMemory 
+#### 1. `VectorSum` : 백터 합
+#### 2. `MatrixMultiplication` : 행렬곱 (블록, 그리드 설정)
+#### 3. `SharedMemory` : 공유 메모리로 성능 높이기(행렬곱)
+#### 4. `Synchronization` : 동기화
+#### 5. `assign` : 레이아웃 설정, 행렬 곱 구현, SharedMemory 
 
 ## 출처
-한국기술교육 대학교 `25 4-1 멀티코어프로그래밍 (김덕수 교수님)
-CUDA 기반 GPU 병렬 처리 프로그래밍(비제이퍼블릭, 2023.05.25, 저자 김덕수) https://product.kyobobook.co.kr/detail/S000202185653
+한국기술교육 대학교 `25 4-1 멀티코어프로그래밍 (김덕수 교수님) \
+CUDA 기반 GPU 병렬 처리 프로그래밍(비제이퍼블릭, 2023.05.25, 저자 김덕수) \ 
+https://product.kyobobook.co.kr/detail/S000202185653 \
 git : https://github.com/bluekds/CUDA_Programming
