@@ -1,0 +1,3 @@
+/home/youngwon/multi-core/cuda/4_Synchronization/build/CMakeFiles/ThreadCounting.dir
+/home/youngwon/multi-core/cuda/4_Synchronization/build/CMakeFiles/edit_cache.dir
+/home/youngwon/multi-core/cuda/4_Synchronization/build/CMakeFiles/rebuild_cache.dir
